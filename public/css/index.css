@@ -1,0 +1,32 @@
+* {
+    font-family:Ubuntu,sans-serif;
+}
+body {
+    padding:0;
+    margin:0;
+}
+.container {
+    width:100%;
+    height:auto;
+    padding:30px 50px;
+    box-sizing:border-box;
+}
+.container > form > label {
+    display:inline-block;
+    font-weight:bold;
+    width:100px;
+    margin-left:20px;
+}
+.container > form > input {
+    margin-bottom:10px;
+    height:25px;
+    width:200px;
+    border:2px solid black;
+}
+.container > form > button[name='submit']{
+    width:150px;
+    height:35px;
+    margin-top:20px;
+    border:2px solid black;
+    box-shadow:3px 4px 4px black;
+}
